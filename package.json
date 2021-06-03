@@ -1,7 +1,7 @@
 {
-  "name": "dojo-typescript-bootstrap",
+  "name": "kata-mars-rover",
   "version": "1.0.0",
-  "description": "Bootstrap for katas in TypeScript",
+  "description": "An implementation of Mars Rover kata",
   "main": "index.js",
   "scripts": {
     "format:check": "prettier --check src",
@@ -14,21 +14,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xballoy/dojo-typescript-bootstrap.git"
+    "url": "git+https://github.com/xballoy/kata-mars-rover.git"
   },
   "author": "Xavier Balloy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xballoy/dojo-typescript-bootstrap/issues"
+    "url": "https://github.com/xballoy/kata-mars-rover/issues"
   },
-  "homepage": "https://github.com/xballoy/dojo-typescript-bootstrap#readme",
+  "homepage": "https://github.com/xballoy/kata-mars-rover#readme",
   "devDependencies": {
     "@tsconfig/node16": "1.0.1",
     "@types/jest": "26.0.23",
     "@types/node": "15.9.0",
-    "@typescript-eslint/eslint-plugin": "^4.26.0",
-    "@typescript-eslint/parser": "^4.26.0",
-    "eslint": "^7.27.0",
+    "@typescript-eslint/eslint-plugin": "4.26.0",
+    "@typescript-eslint/parser": "4.26.0",
+    "eslint": "7.27.0",
     "jest": "27.0.4",
     "prettier": "2.3.0",
     "ts-jest": "27.0.2",
